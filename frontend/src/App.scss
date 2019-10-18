@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.App-header * {
+  display: inline;
+}
+
+.App-header h2 {
+  font-size: calc(10px + 2vmin);
+}
+
+header nav li {
+  margin: 20px;
+
+  a {
+    color: #e2e2e2;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+}

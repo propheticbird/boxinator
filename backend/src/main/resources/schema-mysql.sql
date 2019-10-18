@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS boxes;
+
+CREATE TABLE boxes (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  receiver VARCHAR(100) NOT NULL,
+  weight FLOAT NOT NULL,
+  color VARCHAR(9),
+  destination VARCHAR (100),
+  shippingCost FLOAT NOT NULL
+);
